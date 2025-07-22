@@ -159,7 +159,7 @@
       "type": "html"
     },
     {
-      "code": "//if else\n\nlet age = 121;\n\nif(age >= 18){\n  scrib.show(\"you can vote\");\n}else{\n   scrib.show(\"you can not vote\");\n}\n\n//else if \nlet marks = 75;\n\nif (marks >= 90) {\n  console.log(\"Grade: A+\");\n} else if (marks >= 75) {\n  console.log(\"Grade: A\");\n} else if (marks >= 60) {\n  console.log(\"Grade: B\");\n} else {\n  console.log(\"Fail\");\n}\n\n//switch statement\nlet fruits = \"banana\";\n\nswitch(fruits){\n  case \"apple\":\n\tscrib.show(\"apple seleted\");\n    break;\n    case \"banana\":\n\tscrib.show(\"banana seleted\");\n    break;\n}\n",
+      "code": "//if else\n\nlet age = 121;\n\nif(age >= 18){\n  scrib.show(\"you can vote\");\n}else{\n   scrib.show(\"you can not vote\");\n}\n\n//else if \nlet marks = 75;\n\nif (marks >= 90) {\n  console.log(\"Grade: A+\");\n} else if (marks >= 75) {\n  console.log(\"Grade: A\");\n} else if (marks >= 60) {\n  console.log(\"Grade: B\");\n} else {\n  console.log(\"Fail\");\n}\n\n//switch statement\nlet fruits = \"banana\";\n\nswitch(fruits){\n  case \"apple\":\n\tscrib.show(\"apple selected\");\n    break;\n    case \"banana\":\n\tscrib.show(\"banana selected\");\n    break;\n}\n",
       "status": "[119]<br><span style=\"font-size:8px\">1ms<span></span></span>",
       "output": "you can vote <br>banana seleted <br>",
       "type": "code"
