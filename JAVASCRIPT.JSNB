@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "name": "JAVASCRIPT.JSNB",
+    "language_info": {
+      "name": "JavaScipt",
+      "version": "8.0"
+    }
+  },
+  "jsnbversion": "v0.1",
+  "cells": [
+    {
+      "code": "<h1>Javascript Basic Topic</h1>",
+      "status": "",
+      "output": "<h1>Javascript Basic Topic</h1>",
+      "type": "html"
+    },
+    {
+      "code": "alert(\"Aanchal\");",
+      "status": "[106]<br><span style=\"font-size:8px\">1.643s<span></span></span>",
+      "output": "",
+      "type": "code"
+    },
+    {
+      "code": "<h1>variables</h1>",
+      "status": "",
+      "output": "<h1>variables</h1>",
+      "type": "html"
+    },
+    {
+      "code": "var a=10;\na=5;\nscrib.show(a);\n\nlet b=5;\nb=15;\nscrib.show(b);\n\nconst c =15;\nc=10;\nscrib.show(c);",
+      "status": "[-]",
+      "output": "5 <br>15 <br><p class=\"error\">Assignment to constant variable.</p>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Scope</h1>",
+      "status": "",
+      "output": "<h1>Scope</h1>",
+      "type": "html"
+    },
+    {
+      "code": "//function scope\nfunction a(){\n  var age = 20\n  scrib.show(age);\n}\n\na();\n//block scope\n{\n  let name = \"aanchal\";\n  scrib.show(name)\n}\nscrib.show(name)",
+      "status": "[107]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "20 <br>aanchal <br> <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>practice questions variables</h1>",
+      "status": "",
+      "output": "<h1>practice questions variables</h1>",
+      "type": "html"
+    },
+    {
+      "code": "//aapko apna name print krvana hai let const or var k saath or jisme change hi skta hai usko krna hai wrna nhi\nlet name = \"aanchal mittal\";\nvar firstname = \"aanchal\";\nconst lastname = \"mittal\";\nscrib.show(name);\nscrib.show(firstname);\nscrib.show(lastname);\n",
+      "status": "[108]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "aanchal mittal <br>aanchal <br>mittal <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Data Types</h1>",
+      "status": "",
+      "output": "<h1>Data Types</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let name = \"Aanchal\";\nscrib.show(typeof(name))\nlet a= 20;\nscrib.show(typeof(a))\nlet c = true;\nscrib.show(typeof(c));\nlet d;\nscrib.show(typeof(d));\nlet e = null;\nscrib.show(e);",
+      "status": "[109]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "string <br>number <br>boolean <br>undefined <br>null <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Operator - Arithmetic opertor </h1>",
+      "status": "",
+      "output": "<h1>Operator - Arithmetic opertor </h1>",
+      "type": "html"
+    },
+    {
+      "code": "//Arihmetic opeartors\nscrib.show(2+2);\nscrib.show(2-2);\nscrib.show(2*2);\nscrib.show(2/2);\nscrib.show(2%2);\nscrib.show(2**3);\n",
+      "status": "[110]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "4 <br>0 <br>4 <br>1 <br>0 <br>8 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Operator - Unary operator </h1>",
+      "status": "",
+      "output": "<h1>Operator - Unary operator </h1>",
+      "type": "html"
+    },
+    {
+      "code": "let a = 10;\nscrib.show(a++);//post increment\nscrib.show(++a);//pre increment\nscrib.show(a--);//post decrement\nscrib.show(a)\nscrib.show(--a);",
+      "status": "[111]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "10 <br>12 <br>12 <br>11 <br>10 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Unary Operator Question</h1>",
+      "status": "",
+      "output": "<h1>Unary Operator Question</h1>",
+      "type": "html"
+    },
+    {
+      "code": "//ek value hai b = 20 isko phle 20 ko pre inrement value print krvao fir  pre decrement post increment or decrement krna hai \nlet b = 20;\nscrib.show(++b);\nscrib.show(b);\nscrib.show(--b);\nscrib.show(b);\nscrib.show(b++);\nscrib.show(b);\nscrib.show(b--);\nscrib.show(b);",
+      "status": "[112]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "21 <br>21 <br>20 <br>20 <br>20 <br>21 <br>21 <br>20 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Operators - Asignment Operator</h1>",
+      "status": "",
+      "output": "<h1>Operators - Asignment Operator</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let x= 5;\nscrib.show(x=5);\nscrib.show(x+=65);\nscrib.show(x-=65);\nscrib.show(x*=65);\nscrib.show(x/=65);\nscrib.show(x%=65)\n",
+      "status": "[113]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "5 <br>70 <br>5 <br>325 <br>5 <br>5 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Operator - Comparison operator</h1>",
+      "status": "",
+      "output": "<h1>Operator - Comparison operator</h1>",
+      "type": "html"
+    },
+    {
+      "code": "scrib.show(5 == 5);\nscrib.show(5 == '5');\nscrib.show(5 === '5');\nscrib.show(5 != '5');\nscrib.show(5 !== '5');\nscrib.show(5 ===5);\nscrib.show(7 > 5);\nscrib.show(7 < 5);\nscrib.show(5 >= 5);",
+      "status": "[114]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "true <br>true <br>false <br>false <br>true <br>true <br>true <br>false <br>true <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Operator - Logical Operator</h1>",
+      "status": "",
+      "output": "<h1>Operator - Logical Operator</h1>",
+      "type": "html"
+    },
+    {
+      "code": "//And opeartor\nscrib.show(7 > 5 && 6 >5);\nscrib.show(5 > 5 && 7 > 5);\nscrib.show(7 > 5 && 5 >5);\nscrib.show(5 > 5 && 4 == 5);\n\n// Or opeartor\nscrib.show(7 > 5 || 6 >5);\nscrib.show(5 > 5 || 7 > 5);\nscrib.show(7 > 5 || 5 >5);\nscrib.show(5 > 5 || 4 == 5);",
+      "status": "[115]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "true <br>false <br>false <br>false <br>true <br>true <br>true <br>false <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Ternary Operator</h1>",
+      "status": "",
+      "output": "<h1>Ternary Operator</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let age = 13;\nlet canvote = (age >= 18) ? \"yes\" :\"NO\";\nscrib.show(canvote)\n",
+      "status": "[116]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "NO <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Conditions - if else else if switch statement</h1>",
+      "status": "",
+      "output": "<h1>Conditions - if else else if switch statement</h1>",
+      "type": "html"
+    },
+    {
+      "code": "//if else\n\nlet age = 121;\n\nif(age >= 18){\n  scrib.show(\"you can vote\");\n}else{\n   scrib.show(\"you can not vote\");\n}\n\n//else if \nlet marks = 75;\n\nif (marks >= 90) {\n  console.log(\"Grade: A+\");\n} else if (marks >= 75) {\n  console.log(\"Grade: A\");\n} else if (marks >= 60) {\n  console.log(\"Grade: B\");\n} else {\n  console.log(\"Fail\");\n}\n\n//switch statement\nlet fruits = \"banana\";\n\nswitch(fruits){\n  case \"apple\":\n\tscrib.show(\"apple seleted\");\n    break;\n    case \"banana\":\n\tscrib.show(\"banana seleted\");\n    break;\n}\n",
+      "status": "[119]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "you can vote <br>banana seleted <br>",
+      "type": "code"
+    }
+  ],
+  "source": "https://github.com/gopi-suvanam/scribbler",
+  "run_on_load": false
+}
