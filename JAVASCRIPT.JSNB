@@ -16,7 +16,7 @@
     },
     {
       "code": "alert(\"Aanchal\");",
-      "status": "[106]<br><span style=\"font-size:8px\">1.643s<span></span></span>",
+      "status": "[1]<br><span style=\"font-size:8px\">1.561s<span></span></span>",
       "output": "",
       "type": "code"
     },
@@ -40,7 +40,7 @@
     },
     {
       "code": "//function scope\nfunction a(){\n  var age = 20\n  scrib.show(age);\n}\n\na();\n//block scope\n{\n  let name = \"aanchal\";\n  scrib.show(name)\n}\nscrib.show(name)",
-      "status": "[107]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "status": "[2]<br><span style=\"font-size:8px\">0ms<span></span></span>",
       "output": "20 <br>aanchal <br> <br>",
       "type": "code"
     },
@@ -52,7 +52,7 @@
     },
     {
       "code": "//aapko apna name print krvana hai let const or var k saath or jisme change hi skta hai usko krna hai wrna nhi\nlet name = \"aanchal mittal\";\nvar firstname = \"aanchal\";\nconst lastname = \"mittal\";\nscrib.show(name);\nscrib.show(firstname);\nscrib.show(lastname);\n",
-      "status": "[108]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "status": "[3]<br><span style=\"font-size:8px\">0ms<span></span></span>",
       "output": "aanchal mittal <br>aanchal <br>mittal <br>",
       "type": "code"
     },
@@ -64,7 +64,7 @@
     },
     {
       "code": "let name = \"Aanchal\";\nscrib.show(typeof(name))\nlet a= 20;\nscrib.show(typeof(a))\nlet c = true;\nscrib.show(typeof(c));\nlet d;\nscrib.show(typeof(d));\nlet e = null;\nscrib.show(e);",
-      "status": "[109]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "status": "[4]<br><span style=\"font-size:8px\">1ms<span></span></span>",
       "output": "string <br>number <br>boolean <br>undefined <br>null <br>",
       "type": "code"
     },
@@ -76,7 +76,7 @@
     },
     {
       "code": "//Arihmetic opeartors\nscrib.show(2+2);\nscrib.show(2-2);\nscrib.show(2*2);\nscrib.show(2/2);\nscrib.show(2%2);\nscrib.show(2**3);\n",
-      "status": "[110]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "status": "[5]<br><span style=\"font-size:8px\">0ms<span></span></span>",
       "output": "4 <br>0 <br>4 <br>1 <br>0 <br>8 <br>",
       "type": "code"
     },
@@ -88,7 +88,7 @@
     },
     {
       "code": "let a = 10;\nscrib.show(a++);//post increment\nscrib.show(++a);//pre increment\nscrib.show(a--);//post decrement\nscrib.show(a)\nscrib.show(--a);",
-      "status": "[111]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "status": "[6]<br><span style=\"font-size:8px\">0ms<span></span></span>",
       "output": "10 <br>12 <br>12 <br>11 <br>10 <br>",
       "type": "code"
     },
@@ -100,7 +100,7 @@
     },
     {
       "code": "//ek value hai b = 20 isko phle 20 ko pre inrement value print krvao fir  pre decrement post increment or decrement krna hai \nlet b = 20;\nscrib.show(++b);\nscrib.show(b);\nscrib.show(--b);\nscrib.show(b);\nscrib.show(b++);\nscrib.show(b);\nscrib.show(b--);\nscrib.show(b);",
-      "status": "[112]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "status": "[7]<br><span style=\"font-size:8px\">1ms<span></span></span>",
       "output": "21 <br>21 <br>20 <br>20 <br>20 <br>21 <br>21 <br>20 <br>",
       "type": "code"
     },
@@ -112,7 +112,7 @@
     },
     {
       "code": "let x= 5;\nscrib.show(x=5);\nscrib.show(x+=65);\nscrib.show(x-=65);\nscrib.show(x*=65);\nscrib.show(x/=65);\nscrib.show(x%=65)\n",
-      "status": "[113]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "status": "[8]<br><span style=\"font-size:8px\">1ms<span></span></span>",
       "output": "5 <br>70 <br>5 <br>325 <br>5 <br>5 <br>",
       "type": "code"
     },
@@ -124,7 +124,7 @@
     },
     {
       "code": "scrib.show(5 == 5);\nscrib.show(5 == '5');\nscrib.show(5 === '5');\nscrib.show(5 != '5');\nscrib.show(5 !== '5');\nscrib.show(5 ===5);\nscrib.show(7 > 5);\nscrib.show(7 < 5);\nscrib.show(5 >= 5);",
-      "status": "[114]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "status": "[9]<br><span style=\"font-size:8px\">1ms<span></span></span>",
       "output": "true <br>true <br>false <br>false <br>true <br>true <br>true <br>false <br>true <br>",
       "type": "code"
     },
@@ -136,7 +136,7 @@
     },
     {
       "code": "//And opeartor\nscrib.show(7 > 5 && 6 >5);\nscrib.show(5 > 5 && 7 > 5);\nscrib.show(7 > 5 && 5 >5);\nscrib.show(5 > 5 && 4 == 5);\n\n// Or opeartor\nscrib.show(7 > 5 || 6 >5);\nscrib.show(5 > 5 || 7 > 5);\nscrib.show(7 > 5 || 5 >5);\nscrib.show(5 > 5 || 4 == 5);",
-      "status": "[115]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "status": "[10]<br><span style=\"font-size:8px\">0ms<span></span></span>",
       "output": "true <br>false <br>false <br>false <br>true <br>true <br>true <br>false <br>",
       "type": "code"
     },
@@ -148,7 +148,7 @@
     },
     {
       "code": "let age = 13;\nlet canvote = (age >= 18) ? \"yes\" :\"NO\";\nscrib.show(canvote)\n",
-      "status": "[116]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "status": "[11]<br><span style=\"font-size:8px\">1ms<span></span></span>",
       "output": "NO <br>",
       "type": "code"
     },
@@ -159,9 +159,219 @@
       "type": "html"
     },
     {
-      "code": "//if else\n\nlet age = 121;\n\nif(age >= 18){\n  scrib.show(\"you can vote\");\n}else{\n   scrib.show(\"you can not vote\");\n}\n\n//else if \nlet marks = 75;\n\nif (marks >= 90) {\n  console.log(\"Grade: A+\");\n} else if (marks >= 75) {\n  console.log(\"Grade: A\");\n} else if (marks >= 60) {\n  console.log(\"Grade: B\");\n} else {\n  console.log(\"Fail\");\n}\n\n//switch statement\nlet fruits = \"banana\";\n\nswitch(fruits){\n  case \"apple\":\n\tscrib.show(\"apple selected\");\n    break;\n    case \"banana\":\n\tscrib.show(\"banana selected\");\n    break;\n}\n",
-      "status": "[119]<br><span style=\"font-size:8px\">1ms<span></span></span>",
-      "output": "you can vote <br>banana seleted <br>",
+      "code": "//if else\n\nlet age = 121;\n\nif(age >= 18){\n  scrib.show(\"you can vote\");\n}else{\n   scrib.show(\"you can not vote\");\n}\n\n//else if \nlet marks = 75;\n\nif (marks >= 90) {\n  console.log(\"Grade: A+\");\n} else if (marks >= 75) {\n  console.log(\"Grade: A\");\n} else if (marks >= 60) {\n  console.log(\"Grade: B\");\n} else {\n  console.log(\"Fail\");\n}\n\n//switch statement\nlet fruits = \"apple\";\n\nswitch(fruits){\n  case \"apple\":\n\tscrib.show(\"apple selected\");\n     break;\n    case \"banana\":\n\tscrib.show(\"banana selected\");\n    break;\n\tdefault:\n\tscrib.show(\"unknown fruits\");\n};",
+      "status": "[15]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "you can vote <br>apple selected <br>banana selected <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Nested if else</h1>",
+      "status": "",
+      "output": "<h1>Nested if else</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let age = 10;\nlet isStudent = false;\n\nif(age >= 18){\n  if(isStudent){\n\tscrib.show(\"Adult\");\n  }else{\n\tscrib.show(\"Non Adult\");\n  }\n}else{\n  scrib.show(\"underage\");\n}",
+      "status": "[19]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "underage <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Loops - For Loop</h1>",
+      "status": "",
+      "output": "<h1>Loops - For Loop</h1>",
+      "type": "html"
+    },
+    {
+      "code": "for(let i=1;i<=100;i++){\n  scrib.show(i);\n}\n\nfor(let i=5;i<=5*10;i+=5){\n  scrib.show(i)\n}",
+      "status": "[21]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "5 <br>10 <br>15 <br>20 <br>25 <br>30 <br>35 <br>40 <br>45 <br>50 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Loops - While Loop </h1>",
+      "status": "",
+      "output": "<h1>Loops - While Loop </h1>",
+      "type": "html"
+    },
+    {
+      "code": "let i=1;\n\nwhile(i<6){\nscrib.show(i);\n  i++;\n}",
+      "status": "[26]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "1 <br>2 <br>3 <br>4 <br>5 <br>5 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Loops- Do While loop</h1>",
+      "status": "",
+      "output": "<h1>Loops- Do While loop</h1>",
+      "type": "html"
+    },
+    {
+      "code": "\nlet i = 1;\n\ndo {\n  scrib.show(i);\n  i++;\n} while (i <= 5);",
+      "status": "[29]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "1 <br>2 <br>3 <br>4 <br>5 <br>5 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Loops - Forof Loops</h1>",
+      "status": "",
+      "output": "<h1>Loops - Forof Loops</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let colors = [\"red\", \"green\", \"blue\"];\n\nfor (let color of colors) {\n  scrib.show(color);\n}\n\n",
+      "status": "[30]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "red <br>green <br>blue <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>loops - For in Loop</h1>",
+      "status": "",
+      "output": "<h1>loops - For in Loop</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let person = {\n  name: \"Aanchal\",\n  age: 22\n};\n\nfor (let key in person) {\n  scrib.show(key + \": \" + person[key]);\n}",
+      "status": "[31]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "name: Aanchal <br>age: 22 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Break Keyword</h1>",
+      "status": "",
+      "output": "<h1>Break Keyword</h1>",
+      "type": "html"
+    },
+    {
+      "code": "for(let i=1;i<=5;i++){\n  if(i == 3) break;\n  scrib.show(i);\n}",
+      "status": "[33]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "1 <br>2 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Continue Keyword</h1>",
+      "status": "",
+      "output": "<h1>Continue Keyword</h1>",
+      "type": "html"
+    },
+    {
+      "code": "for(let i=1;i<=5;i++){\n  if(i == 3) continue;\n  scrib.show(i);\n}",
+      "status": "[34]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "1 <br>2 <br>4 <br>5 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Functions</h1>",
+      "status": "",
+      "output": "<h1>Functions</h1>",
+      "type": "html"
+    },
+    {
+      "code": "function greet(){\n  scrib.show(\"namaste\");\n}\ngreet();\n\n//with parameters\n\nfunction userName(name){\n  scrib.show(\"username\"+ \":\"+name);\n}\nuserName(\"Aanchal\");",
+      "status": "[37]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "namaste <br>username:Aanchal <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Function with return Value</h1>",
+      "status": "",
+      "output": "<h1>Function with return Value</h1>",
+      "type": "html"
+    },
+    {
+      "code": "function add(a, b){\n  return a + b;\n}\n\nlet result = add(5, 4);\n\n// jb function ko variable mai store krte hai\nlet sayHello = function(){\n  scrib.show(\"Hello\");\n}\n\nsayHello();",
+      "status": "[39]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "Hello <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Arrow function - short form</h1>",
+      "status": "",
+      "output": "<h1>Arrow function - short form</h1>",
+      "type": "html"
+    },
+    {
+      "code": "const greet = (name)=>{\nreturn 'hi' + \" \" + name;\n}\n\nscrib.show(greet(\"Aanchal\"))\n\n// one linear\n\nconst square = num => num * num;\nscrib.show(square(2))\n",
+      "status": "[44]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "hi Aanchal <br>4 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Default Parameters</h1>",
+      "status": "",
+      "output": "<h1>Default Parameters</h1>",
+      "type": "html"
+    },
+    {
+      "code": "function greet(name = \"guest\"){\n  scrib.show(name);\n}\ngreet();\n",
+      "status": "[48]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "guest <br>",
+      "type": "code"
+    },
+    {
+      "code": "\n<h1>CallBack Functions</h1>",
+      "status": "",
+      "output": "<h1>CallBack Functions</h1>",
+      "type": "html"
+    },
+    {
+      "code": "function greet(name, callback) {\n scrib.show(\"Hi \" + name);\n  callback();\n}\n\nfunction done() {\n  scrib.show(\"Greeting done!\");\n}\n\ngreet(\"Aanchal\", done);\n",
+      "status": "[50]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "Hi Aanchal <br>Greeting done! <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Arrays</h1>",
+      "status": "",
+      "output": "<h1>Arrays</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let fruits = [\"mango\",\"apple\",\"banana\",\"guvava\"];\n\nscrib.show(fruits[0])\nscrib.show(fruits[2])\nscrib.show(fruits[3])\nscrib.show(fruits[4])\nscrib.show(fruits.length)",
+      "status": "[54]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "mango <br>banana <br>guvava <br>undefined <br>4 <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1> Array loops - for loop</h1>",
+      "status": "",
+      "output": "<h1> Array loops - for loop</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let fruits = [\"mango\",\"apple\",\"banana\",\"guvava\"];\nfor (let i = 0; i < fruits.length; i++) {\n  scrib.show(fruits[i]);\n}",
+      "status": "[55]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "mango <br>apple <br>banana <br>guvava <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Array loops - for of loop</h1>",
+      "status": "",
+      "output": "<h1>Array loops - for of loop</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let fruits = [\"mango\",\"apple\",\"banana\",\"guvava\"];\n\n\nfruits.push(\"litchi\");\nfruits.pop();\nfruits.unshift(\"litchi\");\nfruits.shift();\n for (let fruit of fruits) {\n scrib.show(fruit);\n}",
+      "status": "[63]<br><span style=\"font-size:8px\">0ms<span></span></span>",
+      "output": "mango <br>apple <br>banana <br>guvava <br>",
+      "type": "code"
+    },
+    {
+      "code": "<h1>Advaced Js Methods</h1>",
+      "status": "",
+      "output": "<h1>Advaced Js Methods</h1>",
+      "type": "html"
+    },
+    {
+      "code": "let fruits = [\"mango\",\"apple\",\"banana\",\"guvava\"];\n\nlet sliced = fruits.slice(1, 3);\nscrib.show(sliced);\n\nfruits.forEach(f => scrib.show(f));\nlet numbers = [1,2,3,4,5];\nlet double = numbers.map(n => n * 2);\nscrib.show(double)",
+      "status": "[70]<br><span style=\"font-size:8px\">1ms<span></span></span>",
+      "output": "[\n  \"apple\",\n  \"banana\"\n] <br>mango <br>apple <br>banana <br>guvava <br>[\n  2,\n  4,\n  6,\n  8,\n  10\n] <br>",
+      "type": "code"
+    },
+    {
+      "code": "",
+      "status": "",
+      "output": "",
       "type": "code"
     }
   ],
